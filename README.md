@@ -2,7 +2,7 @@
 
 hello guys welcome all. In this repository i have created my personal portfolio. Hope by seeing it live you will appreciate it more 
     <p align="center">
-    <img src="https://github.com/Johnteh/my_profile/blob/main/images/miiri%20profile.png"
+    <img src="https://github.com/Johnteh/portfolio/blob/main/images/miiri%20profile.png"
         alt="Holbertonbnb logo"
         width="750"
     >
