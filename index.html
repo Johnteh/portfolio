@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="./animate.css/animate.css">
     
     
+    
 </head>
 <body>
     <div class="preloader">
@@ -23,17 +24,17 @@
     <nav class="navbar navbar-expand-lg sticky fixed-top r-nav">
         <div class="container">
             <a class="navbar-brand ml-lg-4" href="#">MIIRI</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarId" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarId" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
         
             <div class="collapse navbar-collapse" id="navbarId">
             <ul class="navbar-nav ms-auto">
                 <li class="nav-item active">
-                <a class="nav-link" href="#home">Home </a>
+                    <a class="nav-link" href="#home">Home </a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="#About">About-Me</a>
+                    <a class="nav-link" href="#About">About-Me</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#services-id">Services</a>
@@ -277,45 +278,56 @@
             </div>
             <div class="container">
                 <div class="row filter-container mx-auto">
-                    <div class="col-xs-6 col-sm-4 col-md-4 filtr-item card-wrapper" data-category="1,2">
-                        <div class="work-img">
-                            <img src="./images/w1.jpg" class="img-fluid" alt="w1">
-                            <div class="bottom-right">source code</div>
-                            
-                        </div>
-                    </div>
-                    <div class="col-xs-6 col-sm-4 col-md-4 filtr-item card-wrapper" data-category="4,2">
-                        <div class="work-img">
-                            <img src="./images/w2.jpg" class="img-fluid" alt="w2">
-                            <div class="bottom-right">source code</div>
-                            
-                        </div>
-                    </div>
-                    <div class="col-xs-6 col-sm-4 col-md-4 filtr-item card-wrapper" data-category="1, 4, 2">
+                    <div class="col-xs-6 col-sm-4 col-md-4 filtr-item card-wrapper" data-category="1">
                         <div class="work-img">
                             <img src="./images/w8.jpg" class="img-fluid " alt="w8">
-                            <div class="bottom-right">source code</div>
+                            <div class="centered">Blog-post</div>
+                            <a class="bottom-right" href="https://github.com/Johnteh/Flask-blog" target="_blank" rel="noopener noreferrer">source code</a>
                             
                         </div>
                     </div>
-                    <div class="col-xs-6 col-sm-4 col-md-4 filtr-item card-wrapper" data-category="4, 3, 2">
+                    <div class="col-xs-6 col-sm-4 col-md-4 filtr-item card-wrapper" data-category="2, 1">
+                        <div class="work-img">
+                            <img src="./images/w2.jpg" class="img-fluid" alt="w2">
+                            <div class="centered">Airbnb-clone</div>
+                            <a class="bottom-right" href="https://github.com/Johnteh/final_Airbnb_clone/blob/master/documentation/API.md" target="_blank" rel="noopener noreferrer">source code</a>
+                            
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-sm-4 col-md-4 filtr-item card-wrapper" data-category="1">
+                        <div class="work-img">
+                            <img src="./images/w1.jpg" class="img-fluid" alt="w1">
+                            <div class="centered">hbnb-app</div>
+                            <a class="bottom-right" href="https://github.com/Johnteh/final_Airbnb_clone" target="_blank" rel="noopener noreferrer">source code</a>
+                            
+                                
+                            
+                            
+                        </div>
+                    </div>
+                    
+                    
+                    <div class="col-xs-6 col-sm-4 col-md-4 filtr-item card-wrapper" data-category="4">
                         <div class="work-img">
                             <img src="./images/w6.jpg" class="img-fluid" alt="w6">
-                            <div class="bottom-right">source code</div>
+                            <div class="centered">data-talk</div>
+                            <a class="bottom-right" href="#" target="_blank" rel="noopener noreferrer">source code</a>
                             
                         </div>
                     </div>
-                    <div class="col-xs-6 col-sm-4 col-md-4 filtr-item card-wrapper" data-category="1, 2, 4">
+                    <div class="col-xs-6 col-sm-4 col-md-4 filtr-item card-wrapper" data-category="1">
                         <div class="work-img">
                             <img src="./images/w5.jpg" class="img-fluid" alt="w5">
-                            <div class="bottom-right">source code</div>
+                            <div class="centered">Movie-app</div>
+                            <a class="bottom-right" href="#" target="_blank" rel="noopener noreferrer">source code</a>
                             
                         </div>
                     </div>
-                    <div class="col-xs-6 col-sm-4 col-md-4 filtr-item card-wrapper" data-category="1, 3">
+                    <div class="col-xs-6 col-sm-4 col-md-4 filtr-item card-wrapper" data-category="3">
                         <div class="work-img">
                             <img src="./images/w7.jpg" class="img-fluid" alt="w7">
-                            <div class="bottom-right">source code</div>
+                            <div class="centered">Job-portal</div>
+                            <a class="bottom-right" href="#" target="_blank" rel="noopener noreferrer">source code</a>
                             
                         </div>
                     </div>
@@ -499,11 +511,13 @@
     
     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
     
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
     
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+    
 
     
     

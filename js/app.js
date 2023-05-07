@@ -1,10 +1,14 @@
 
 
 $(document).ready(function(){
+  
   $(window).on('load', function(){
     $('.preloader').addClass('complete')
 
   });
+
+  
+  
   $(window).on('scroll', function(){
     var scroll = $(window).scrollTop();
     if (scroll>=50){
@@ -15,6 +19,9 @@ $(document).ready(function(){
 
     }
   })
+
+  
+  
   
   
   var typed = new Typed(".element", {
@@ -58,6 +65,10 @@ $(document).ready(function(){
 
   })
 
+  function hide_preloader() {
+    // To apply Fade Out Effect to the Preloader 
+    jQuery("#preloader").fadeOut(1000);
+    }
   
   
   

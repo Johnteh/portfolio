@@ -377,6 +377,17 @@ img + img {
   font-weight: 600;
 }
 
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #FF9800;
+  font-size: 30px;
+  font-weight: 800;
+}
+
 /*contact us*/
 
 .contact .img-box{
