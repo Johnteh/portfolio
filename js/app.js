@@ -2,7 +2,7 @@
 
 $(document).ready(function(){
   
-  $(window).on('load', function(){
+  $(document).ready(function(){
     $('.preloader').addClass('complete')
 
   });
